@@ -1,0 +1,70 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+    background-color: #19B3D3;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #19B3D3;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #19B3D3;
+}
+
+
+/* ============>> boxes css <<========= */
+.round i{
+    border:2px solid #19B3D3;
+    border-radius:50%;
+    padding:20px;
+}
+.main-box{
+    display:flex;
+    justify-content:space-evenly;
+}
+.box1{
+    background-color:white;
+    padding:25px 0px 25px 25px;
+    border-radius:5px;
+    width:30%;
+
+}
+
+.icon i{
+    font-size:2rem;
+    border:2px solid #002E45; 
+    border-radius:50%;
+    padding:20px;
+    background-color:#D9D5F6;
+    color:#002E45;
+}
+.patient{
+    
+    margin-left:40%;
+    text-align:center;
+}
+.patient p{
+    font-size:15px;
+    margin-top:10px;
+    color:#8B8B8B;
+}
